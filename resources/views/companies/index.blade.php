@@ -25,10 +25,10 @@
             border-color: #007bff;
             margin-right: 10px;
         }
-        .bi-person-circle{
-            width: 20%;
-            height: 20%;
-            
+        .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #0062cc;
         }
 
     </style>
@@ -38,7 +38,6 @@
         <div class="row">
             <div class="col-lg-12 mb-4">
                 <div class="d-flex justify-content-between align-items-center">
-<<<<<<< HEAD
                     <h2>Laravel 9 CRUD Project</h2>
                     @guest
                     
@@ -55,10 +54,6 @@
                             <button type="submit" class="btn btn-primary"><i class="bi bi-box-arrow-right"></i></button>
                         </form>
                     @endguest
-=======
-                    <h2>Laravel 9 CRUD Project</h2>                   
-                    <a class="btn btn-success" href="{{ route('companies.create') }}"><i class="bi bi-plus-square"></i></a>  
->>>>>>> ac7a43e8498afa5e3b89e6d8c4dea6f1ce0826ca
                 </div>
                 @guest
                     <div class="mt-3">
