@@ -51,7 +51,7 @@
                         <form id="logout-form" action="{{ route('logout') }}" method="POST">
                             @csrf                            
                             <a class="btn btn-success" href="{{ route('companies.create') }}"><i class="bi bi-plus-square"></i></a>
-                            <button type="submit" class="btn btn-primary"><i class="bi bi-box-arrow-right"></i></button>
+                            <button type="submit" class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i></button>
                         </form>
                     @endguest
                 </div>
