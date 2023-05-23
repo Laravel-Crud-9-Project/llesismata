@@ -12,7 +12,7 @@
 
         .container {
             margin-top: 2rem;
-            max-width: 800px; /* Adjust the max-width to your desired value */
+            max-width: 800px;
             margin-left: auto;
             margin-right: auto;
         }

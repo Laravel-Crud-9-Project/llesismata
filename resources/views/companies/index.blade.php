@@ -97,8 +97,13 @@
                     @else
                         <form id="logout-form" action="{{ route('logout') }}" method="POST">
                             @csrf                            
+<<<<<<< HEAD
                             <a class="btn btn-success" href="{{ route('companies.create') }}"><i class="bi bi-plus-square"></i> Create</a>
                             <button type="submit" class="btn btn-primary"><i class="bi bi-box-arrow-right"></i> Logout</button>
+=======
+                            <a class="btn btn-success" href="{{ route('companies.create') }}"><i class="bi bi-plus-square"></i></a>
+                            <button type="submit" class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i></button>
+>>>>>>> f32e610944f5f5834161147482d014c81983fa92
                         </form>
                     @endguest
                 </div>
